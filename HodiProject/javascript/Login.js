@@ -7,7 +7,7 @@ loginBtn.addEventListener('click', () => {
   let passwordE = localStorage.getItem('password');
   if (userE == user.innerText && passwordE == password.innerText) {
     alert('login successful');
-    window.location.href = '/HodiProject/html/Home.html';
+    window.location.href = '/HodiaMalcaSite/HodiProject/html/Home.html';
   } else {
     alert('!!לא הכנסת ערכים נכונים');
   }
