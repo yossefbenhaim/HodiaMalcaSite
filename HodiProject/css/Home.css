@@ -1,0 +1,243 @@
+body {
+  background-color: rgb(248, 242, 242);
+  text-align: -webkit-center;
+  font-family: fantasy;
+}
+.lyear1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+.head-page {
+  width: auto;
+  height: auto;
+}
+
+.body-page {
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+.style-div1 {
+  text-align: center;
+}
+
+.img-smole {
+  width: 40%;
+  height: 25%;
+}
+
+/* מפה תמונות וכפתורים */
+.div-3-img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+}
+
+.style-all-img3 {
+  width: 100%;
+  height: 100%;
+}
+.div-style-img1 {
+  width: 30%;
+  height: 100%;
+}
+
+.div-style-img2 {
+  width: 30%;
+  height: 100%;
+}
+
+.div-style-img3 {
+  width: 30%;
+  height: 100%;
+}
+.button-and-div-3-img {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+}
+.btn-style {
+  display: flex;
+  margin-top: -3%;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.div-btn-left {
+  width: 19%;
+  margin-left: 5%;
+}
+.btn-left {
+  width: 100%;
+  height: 85%;
+  margin-left: 1%;
+  font-weight: 900;
+  transition: transform 1000ms;
+}
+
+.btn-left:hover {
+  transform: translateY(-50px);
+}
+.div-btn-right {
+  width: 19%;
+  margin-right: 6%;
+}
+
+.btn-right {
+  width: 100%;
+  height: 85%;
+  font-weight: 900;
+  transition: transform 1000ms;
+}
+
+.btn-right:hover {
+  transform: translateY(-50px);
+}
+
+.div-btn-center {
+  width: 19%;
+  margin-left: 1%;
+}
+.btn-center {
+  width: 100%;
+  height: 85%;
+  font-weight: 900;
+  transition: transform 1000ms;
+}
+
+.btn-center:hover {
+  transform: translateY(-50px);
+}
+
+/* to right */
+/* novbar */
+.novbar {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: space-between;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  width: 101%;
+  margin-left: -1%;
+}
+
+.shop-and-account {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.big-title {
+  margin-right: 8%;
+}
+
+.big-title-text {
+  background-color: rgb(255, 255, 255);
+  margin-top: 30%;
+  font-family: fantasy;
+}
+
+.account {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 74%;
+}
+
+.div-icon-user {
+  margin-top: 35%;
+}
+
+.icon-user {
+  font-size: 3.5vh;
+}
+
+.div-icon-bag {
+  width: 40%;
+  margin-top: 22%;
+}
+.icon-bag {
+  font-size: 3.5vh;
+}
+
+.login-text {
+  margin-top: 12%;
+  margin-right: 2%;
+  width: 74%;
+}
+.topnav {
+  width: 30%;
+  overflow: hidden;
+  border: 1px solid;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 16px;
+  height: 100%;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: gray;
+}
+
+.home-btn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.home-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-fluid-icon {
+  margin-left: 0%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
