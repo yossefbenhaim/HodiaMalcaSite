@@ -13,7 +13,7 @@ loginBtn.addEventListener('click', () => {
       localStorage.setItem('password', password.value);
 
       alert('create successful');
-      window.location.href = '/HodiProject/html/Home.html';
+      window.location.href = '/HodiaMalcaSite/HodiProject/html/Home.html';
     }
   } else {
     alert('לא הכנסת שום ערך בבקשה למלא הכול!!');
