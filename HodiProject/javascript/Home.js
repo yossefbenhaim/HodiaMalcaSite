@@ -25,6 +25,6 @@ iconUser.addEventListener('click', () => {
       alert('😁אתה עדיין רשום');
     }
   } else {
-    window.location.href = '/HodiProject/html/Login.html';
+    window.location.href = '/HodiaMalcaSite/HodiProject/html/Login.html';
   }
 });
